@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navBar {
+  background-color: rgb(47, 61, 70);
+  padding: 30px;
+  display: flex;
+  width:100%;
+  position: relative;
+  
+}
+
+.icon {
+  display: inline;
+  height: 50px;
+}
+
+.titleBlock{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.titleBox {
+  text-align: center;
+  display: inline;
+  height: 50px;
+  font-family: Verdana;
+  font-size: 150%;
+  font-weight: bolder;
+  position: absolute;
+  width: 30%;
+  /* margin-left: 35%; */
+}
+.title {
+  position: relative;
+  top: 10px;
+  color: white;
+}
+.main {
+  display: flex;
+}
+
+.contentLeft {
+  background-color: rgb(53, 53, 53);
+  height: 500px;
+  width: 25%;
+  margin: 50px 0 0 30px;
+  border-radius: 20px;
+}
+
+.contentRight {
+  height: 500px;
+  width: 100%;
+  margin: 50px 0 0 0;
+  /* background-color: brown; */
+}
+
+.search {
+  background-color: rgb(53, 53, 53);
+  margin: 30px;
+  margin-left: 16%;
+  height: 50px;
+  position: absolute;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.searchText {
+  position: absolute;
+  background-color: rgb(53, 53, 53);
+  display: inline;
+  margin-left: 10px;
+  margin-top: 15px;
+  font-family: Verdana;
+  font-weight: bolder;
+  color: rgb(148, 148, 148);
+}
+.midContent {
+  display: flex;
+  position: relative;
+  top: 25%;
+  margin-left: 12.5%;
+}
+
+.midBox1 {
+  background-color: rgb(53, 53, 53);
+  width: 25%;
+  height: 150px;
+  border-radius: 10px;
+}
+.midBox2 {
+  background-color: rgb(53, 53, 53);
+  width: 25%;
+  height: 150px;
+  margin-left: 10%;
+  border-radius: 10px;
+}
+.midBox3 {
+  background-color: rgb(53, 53, 53);
+  width: 25%;
+  height: 150px;
+  margin-left: 10%;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: rgb(53, 53, 53);
+  width: 65%;
+  height: 100px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 8.95%;
+  border-radius: 10px;
+}
